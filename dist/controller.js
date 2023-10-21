@@ -58,7 +58,7 @@ class ArtNetController extends EventEmitter {
             }
         }
         else {
-            broadcastAddress = '0.0.0.0';
+            broadcastAddress = '192.168.1.166';
         }
         if (broadcastAddress !== null) {
             console.log("Binding broadcast address " + broadcastAddress + ":6454");
